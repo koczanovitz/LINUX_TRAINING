@@ -1,0 +1,6 @@
+Stwórz skrypt, który przyjmie 3 parametry pozycyjne:
+- ścieżkę do pliku
+- liczbę a
+- liczbę b
+
+Zadaniem skryptu jest wyliczenie ilości wystąpień litery 'a' bez względu na wielkość, w pliku podanym jako argument od linii a do linii b włącznie.

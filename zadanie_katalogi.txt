@@ -1,0 +1,16 @@
+Zadanie 2
+
+Utwórz w systemie katalogi i pliki według poniższego schematu w katalogu domowym:
+
+Kat_zad_2
+    |
+    ---Katalog1
+    |   |
+    |   ---plik1 (wpisz tekstową zawartość)
+    |
+    ---Kiep$ka nazw@ Kat'alog"u
+
+a następnie napisz skrypt, który wykona poniższe polecenia:
+a) skopiuje plik1 z Katalog1 do Kat_zad_2 i jednocześnie nada mu nową nazwę p1.txt
+b) w katalogu Kiep$ka nazw@ Kat'alog"u utworzy link symboliczny do pliku p1.txt z katalogu Kat_zad_2 o nazwie slink
+c) utworzy dwie zmienne liczbowe x oraz y, a następnie zwróci na ekran wynik mnożenia tych dwóch liczb (zmiennych)

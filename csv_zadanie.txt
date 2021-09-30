@@ -1,0 +1,26 @@
+Dane są 2 pliki w formacie csv:
+1. "lokalizacje.csv", o kolumnach:
+	- imię i nazwisko
+	- miasto
+	- numer telefonu
+	- kod pocztowy
+	- stan
+
+2. "informacje.csv", o kolumnach:
+	- wiek
+	- numer konta
+	- stan konta
+	- numer telefonu
+
+Pole "numer telefonu" logicznie wiąże informacje w obu plikach.
+
+Napisz skrypt, który dla podanych danych wygeneruje raport składający się z kolumn:
+	- imię i nazwisko
+	- wiek
+	- stan konta
+
+a) Raport ma obejmować 50% wpisów z pliku informacje.csv,
+b) Należy wybrać wiersze posortowane wg stanu konta (od największego),
+c) Należy wypisać wiersze w takiej samej kolejności, w jakich występują w pliku informacje.csv,
+d) Kolumny mają być rozdzielone tabulatorem,
+e) Jeśli skrypt skorzysta z plików tymczasowych, to powinien je usunąć.

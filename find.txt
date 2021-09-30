@@ -1,0 +1,53 @@
+Find - komenda do znajdowania plików i innych obiektów w systemie:
+
+
+-type (wyszukiwanie po typie) 
+d – directories/foldery 
+f – files/pliki 
+l – linki symboliczne 
+
+-name (wyszukiwanie po nazwie, jest caps sensitive, czyli wielkość liter ma znaczenie) 
+“*.txt” (wszystkie pliki o rozszerzeniu .txt) 
+“p*” (wszystkie pliki zaczynające się na p) 
+“.*” (pliki ukryte) 
+
+-iname (to co name, ale nie jest caps sensitive, czyli wielkość liter jest ignorowana) 
+-empty (szuka pustych plików i katalogów) 
+-mindepth (określa minimalny poziom/głębokość na którym obiekty będą szukane) 
+-maxdepth (określa maksymalny poziom/głębokość na którym obiekty będą szukane) 
+-not (negacja, to samo co !) 
+-user (szuka plików należących do konkretnego użytkownika) 
+-group (szuka plików należących do konkretnej grupy) 
+-perm (szuka obiektów o podnaych uprawnieniach) 
+
+min – szuka plików nowszych lub starszych (minus i plus), wartości podajemy w minutach 
+-cmin (changed - zawartość została zmieniona od określonego czasu) 
+-mmin (modified - zawartość została zmodyfikowana od określonego czasu) 
+-amin (accessed - zawartość była dostępna od określonego czasu
+) 
+
+time – podobnie jak min, wartości podajemy w dniach 
+-ctime 
+-mtime 
+-atime 
+-newer (wyszukuje pliki nowsze od podanego) 
+-size (wyszukuje pliki po ich rozmiarze), jednostki: 
+b – 512 bitowy blok 
+c – bit 
+k – kilobajty 
+M – megabajty 
+G - gigabajty 
+-o (or, lub, ||) 
+ 
+Przykłady:
+find ~ -maxdepth 2 -type f ! -empty -name "*.txt"
+
+Znajdź niepuste pliki o rozszerzeniu "*.txt" startując z katalogu domowego i zagłębiając się maksymalnie 2 piętra.
+
+
+find ~ -type d -cmin -30
+Znajdź katalogi, które uległy modyfikacji w ciągu ostatnich 30 min zaczynając od katalogu domowego.
+
+
+find -type f -exec md5sum {} \;
+Znajdź wszystkie pliki z katalogu bieżącego i wylicz dla nich sumy kontrolne md5.

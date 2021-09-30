@@ -1,0 +1,9 @@
+Znajdź linie, które spełniają następujące założenia:
+1. występują słowa które rozpoczynają się daną parą znaków i taką samą parą się
+kończą, jednak w odwrotnej kolejności
+2. co najmniej dwa słowa w linii mają zaraz po sobie znak interpunkcyjny
+3. występuje słowo co najmniej dwuliterowe, które rozpoczyna się i kończy taką samą literą jak pierwsze słowo w linii
+4. nie ma słów krótszych niż 4 literowe
+5. występuje parzysta ilość liter 'a'
+6. każde słowo, które kończy się znakiem interpunkcyjnym składa się z parzystej ilości liter
+7. Bezpośrednio na początku linii znajduje się słowo składające się z 3 liter, albo na końcu linii występuje słowo ze znakiem interpunkcyjnym, albo występuje słowo więcej niż 9 literowe w dowolnym miejscu w linii.

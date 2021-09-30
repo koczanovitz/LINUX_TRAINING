@@ -1,0 +1,11 @@
+Zadanie 1.
+
+Napisz skrypt, który:
+a) w katalogu domowym utworzy katalog o nazwie Kat1. Następnie wejdzie do niego i w środku utworzy trzy pliki o nazwach:
+	-  plik1
+	-  etc.txt
+	-  abc.
+b) wpisze do pliku abc zdanie "Adam Mickiewicz wielkim poetą był".
+c) zmieni uprawnienia pliku plik1 na 630.
+d) umieści w pliku etc.txt listę wszystkich plików i katalogów z katalogu /etc
+e) usunie plik1

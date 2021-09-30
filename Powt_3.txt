@@ -1,0 +1,1 @@
+Dany jest plik, który zawiera wyłącznie liczby. Podaj liczbę minimalną i maksymalną dla każdej linii, a następnie medianę dla całego pliku.

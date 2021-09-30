@@ -1,0 +1,5 @@
+Dane były 2 pliki tekstowe. Nazwy tych plików wraz z sumami kontrolnymi md5 zostały zapisane w pliku oryginalne_nazwy.txt.
+Pliki te zostały poszatkowane na kawałki, a nazwy ich są obecnie losowe. 
+Wiadomo, że zachowały się sumy kontrolne poszczególnych elementów pliku. Odpowiednio dane1.txt zawiera sumy kontrolne plików z pierwszego pliku, dane2.txt z drugiego.
+
+Zadanie: Odtwórz pierwotną zawartość plików oraz nadaj im odpowiednie nazwy.

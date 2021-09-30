@@ -1,0 +1,1 @@
+Zamień kolejność kolumn pliku informacje.csv w taki sposób, żeby nowy plik zawierał kolejno kolumny 4,2,4,1,3

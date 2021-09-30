@@ -1,0 +1,4 @@
+1. W pliku liczby.txt znajdź linie, w których:
+	- występuje liczba rozpoczynająca się cyfrą 1
+	- ostatnia liczba jest podzielna przez 5
+	- pierwsza cyfra liczby to 3 lub 5, a kolejna jest z przedziału 1-5. 

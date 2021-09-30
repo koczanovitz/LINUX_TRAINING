@@ -1,0 +1,10 @@
+Stwórz skrypt który zapyta użytkownika o imię, maila i telefon. Następnie sprawdzi poprawność wprowadzonych danych:
+- imię może się składać wyłącznie z liter, gdzie pierwsza jest duża
+- mail może się składać wyłącznie ze schematu X@Y.Z
+	X - dowolna ilość małych liter 
+	Y - dowolna ilość małych liter
+	Z - dowolne dwie, albo trzy małe litery
+- telefon ma być w formacie +00 000 00 00 00
+
+W przypadku podania niepoprawnych danych skrypt ma wyświetlić komunikat i umożliwić podanie użytkownikowi poprawnych danych do skutku.
+Na koniec skrypt ma wyświetlić wprowadzone wyniki.

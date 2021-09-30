@@ -1,0 +1,2 @@
+Zadanie 3:
+Używając instrukcji case utwórz skrypt, który zapyta użytkownika o numer miesiąca, a następnie wypisze na ekran odpowiedź podając nazwę miesiąca.

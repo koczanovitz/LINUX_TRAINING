@@ -1,0 +1,6 @@
+Dany jest plik "dane.csv":
+1. Wyfiltruj wszystkie linie zawierające adres email
+2. Wyfiltruj linie zawierające 4 pola 
+3. Stwórz listę wszystkich imion, które się pojawiły
+4. Policz, ile jest adresów email w domenie '.gov'
+5. Podaj liczbę linii, w których adres email jest w domenie '.com', płeć jest męska, a zawód wykonywany to NIE jest profesor.

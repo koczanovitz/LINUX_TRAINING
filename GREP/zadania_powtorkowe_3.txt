@@ -1,0 +1,9 @@
+Znajdź linie, w których:
+1. jest dokładnie 5 liczb,
+2. występuje liczba dwucyfrowa i jest ona parzysta,
+3. są więcej niż 4 jednakowe cyfry.
+4. ostatnia cyfra w każdej liczbie jest równa 1 lub 2 lub 6
+5. na pierwszych dwóch miejscach są znaki interpunkcyjne
+6. (bezpośrednio) przed i po słowie występuje znak interpunkcyjny
+7. znajduje się słowo, mające dokładnie 4 samogłoski [aeiouy]
+8. sumaryczna ilość liter 'a' jest mniejsza od 8 lub jest większa od 15

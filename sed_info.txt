@@ -1,0 +1,17 @@
+Najczęściej spotykane zastosowanie seda:
+
+Zamiana jednego wyrażenia regularnego na inne:
+cat panTadeusz.txt | sed -e 's/Adam/XXX/g'
+
+Jak wyżej, jednak tylko dla pierwszego wystąpienia w linii:
+cat panTadeusz.txt | sed -e 's/Adam/***/'
+
+& - powoduje wpisanie wzoru. &&& - potrojenie wyrażenia regularnego podanego jako wzór:
+cat panTadeusz.txt | sed -e 's/Adam/&&&/'
+
+usuwanie pustych linii
+cat panTadeusz.txt | sed '/^$/d'
+
+wyfiltrowanie zakresu linii od do.
+cat panTadeusz.txt | sed -n "10,20"p
+

@@ -1,0 +1,6 @@
+Przygotuj listę 20 najczęściej występujących słów z pliku tekstowego.
+
+Należy wiedzieć:
+- w poszczególnych liniach może występować wiele słów,
+- nie należy zwracać uwagi na małe / duże litery,
+- znaki interpunkcyjne mają być ignorowane.

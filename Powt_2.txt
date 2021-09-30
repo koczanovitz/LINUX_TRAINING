@@ -1,0 +1,1 @@
+Pobierz pierwszych 25 słów z pliku tekstowego i rozmieść je równomiernie w macierzy 5x5

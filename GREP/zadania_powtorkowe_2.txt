@@ -1,0 +1,6 @@
+W pliku panTadeusz.txt znajdź linie, w których:
+	- występuje trzyliterowe słowo, gdzie pierwszy znak to 'a', lub 'c', drugi jest dowolny, a trzeci jest samogłoską (aeiouy) - bez polskich znaków
+	- po ostatnim słowie w linii występuje jeszcze jakiś znak
+	- występuje słowo zakończone kropką.
+
+
